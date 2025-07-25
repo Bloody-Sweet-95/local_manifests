@@ -27,4 +27,8 @@
 	<project remote="gh" name="Evolution-X-Devices/hardware_xiaomi" path="hardware/xiaomi" revision="bka" />
 	<project remote="gh" name="TogoFire/packages_apps_ViPER4AndroidFX" path="packages/apps/ViPER4AndroidFX" revision="v4a" />
 
+	<!-- Extras -->
+	<project remote="gh" name="basamaryan/android_device_qcom_wfd" path="device/qcom/wfd" revision="lineage-23.0" />
+	<project remote="gh" name="basamaryan/proprietary_vendor_qcom_wfd" path="vendor/qcom/wfd" revision="lineage-23.0" />
+
 </manifest>
