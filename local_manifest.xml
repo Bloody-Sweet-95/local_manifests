@@ -26,5 +26,8 @@
 	<!-- Hardware and Audio Mods -->
 	<project remote="gh" name="Evolution-X-Devices/hardware_xiaomi" path="hardware/xiaomi" revision="vic" />
 	<project remote="gh" name="TogoFire/packages_apps_ViPER4AndroidFX" path="packages/apps/ViPER4AndroidFX" revision="v4a" />
+	
+	<!-- Signing-keys -->
+	<project remote="gh" name="Bloody-Sweet-95/vendor_evolution-priv_keys" path="vendor/evolution-priv/keys" revision="main" />
 
 </manifest>
