@@ -17,7 +17,7 @@
 	<project remote="gh" name="Bloody-Sweet-95/vendor_xiaomi_sm6150-common" path="vendor/xiaomi/sm6150-common" revision="bka" />
 
 	<!-- Kernel Source  -->
-	<project remote="gh" name="Mr-Morat/Black-Peler" path="kernel/xiaomi/sm6150" revision="AOSP" />
+	<project remote="gh" name="Bloody-Sweet-95/android_kernel_xiaomi_sm6150" path="kernel/xiaomi/sm6150" revision="bka" />
 
 	<!-- MIUI Camera Sources -->
 	<project remote="gh" name="Bloody-Sweet-95/vendor_xiaomi_miuicamera-sweet" path="vendor/xiaomi/miuicamera-sweet" revision="leica_holybear" />
