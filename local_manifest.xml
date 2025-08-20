@@ -9,7 +9,7 @@
 	<remote name="lc" fetch="https://git.pontusmail.org" />
 
 	<!-- Device Specific Sources -->
-	<project remote="gh" name="Bloody-Sweet-95/android_device_xiaomi_sweet" path="device/xiaomi/sweet" revision="bka" />
+	<project remote="gh" name="Bloody-Sweet-95/android_device_xiaomi_sweet" path="device/xiaomi/sweet" revision="lunaris" />
 	<project remote="gh" name="Bloody-Sweet-95/vendor_xiaomi_sweet" path="vendor/xiaomi/sweet" revision="bka" />
 
 	<!-- Device Common Sources -->
@@ -17,14 +17,20 @@
 	<project remote="gh" name="Bloody-Sweet-95/vendor_xiaomi_sm6150-common" path="vendor/xiaomi/sm6150-common" revision="bka" />
 
 	<!-- Kernel Source  -->
-	<project remote="gh" name="Bloody-Sweet-95/android_kernel_xiaomi_sm6150" path="kernel/xiaomi/sm6150" revision="bka" />
+	<project remote="gh" name="Bloody-Sweet-95/android_kernel_xiaomi_sm6150" path="kernel/xiaomi/sm6150" revision="sixteen" />
 
 	<!-- MIUI Camera Sources -->
-	<project remote="gh" name="mikoker/vendor_xiaomi_miuicamera-sweet" path="vendor/xiaomi/miuicamera-sweet" revision="leica_holybear" />
+	<project remote="gh" name="Bloody-Sweet-95/vendor_xiaomi_miuicamera-sweet" path="vendor/xiaomi/miuicamera-sweet" revision="leica_holybear" />
 	<project remote="gh" name="Bloody-Sweet-95/device_xiaomi_miuicamera-sweet" path="device/xiaomi/miuicamera-sweet" revision="bka" />
 
 	<!-- Hardware and Audio Mods -->
 	<project remote="gh" name="Evolution-X-Devices/hardware_xiaomi" path="hardware/xiaomi" revision="bka" />
 	<project remote="gh" name="TogoFire/packages_apps_ViPER4AndroidFX" path="packages/apps/ViPER4AndroidFX" revision="v4a" />
 
+	<!-- WFD -->
+	<project remote="gh" name="Bloody-sweet-95/android_device_qcom_wfd" path="device/qcom/wfd" revision="bka" />
+	<project remote="gh" name="Bloody-sweet-95/proprietary_vendor_qcom_wfd" path="vendor/qcom/wfd" revision="bka" />
+
+	<!-- Signing-keys -->
+	<project remote="gh" name="Lunaris-AOSP/vendor_lunaris-priv_keys" path="vendor/lunaris-priv/keys" revision="16" />
 </manifest>
