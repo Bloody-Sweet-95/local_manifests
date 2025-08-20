@@ -32,5 +32,5 @@
 	<project remote="gh" name="Bloody-sweet-95/proprietary_vendor_qcom_wfd" path="vendor/qcom/wfd" revision="bka" />
 
 	<!-- Signing-keys -->
-	<project remote="gh" name="TheCloverProject-Devices/vendor_clover-priv" path="vendor/clover-priv/keys" revision="15" />
+	<project remote="gh" name="TheCloverProject-Devices/vendor_clover-priv" path="vendor/clover-priv" revision="15" />
 	</manifest>
