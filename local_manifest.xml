@@ -21,7 +21,7 @@
 
 	<!-- MIUI Camera Sources -->
 	<project remote="gh" name="Bloody-Sweet-95/vendor_xiaomi_miuicamera-sweet" path="vendor/xiaomi/miuicamera-sweet" revision="leica_holybear" />
-	<project remote="gh" name="Bloody-Sweet-95/device_xiaomi_miuicamera-sweet" path="device/xiaomi/miuicamera-sweet" revision="bka" />
+	<project remote="gh" name="Bloody-Sweet-95/device_xiaomi_miuicamera-sweet" path="device/xiaomi/miuicamera-sweet" revision="vic" />
 
 	<!-- Hardware and Audio Mods -->
 	<project remote="gh" name="Evolution-X-Devices/hardware_xiaomi" path="hardware/xiaomi" revision="vic" />
