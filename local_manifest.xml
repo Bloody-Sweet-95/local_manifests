@@ -17,10 +17,10 @@
 	<project remote="gh" name="Bloody-Sweet-95/vendor_xiaomi_sm6150-common" path="vendor/xiaomi/sm6150-common" revision="bka" />
 
 	<!-- Kernel Source  -->
-	<project remote="gh" name="Bloody-Sweet-95/android_kernel_xiaomi_sm6150" path="kernel/xiaomi/sm6150" revision="sixteen" />
+	<project remote="gh" name="TheHewra/kernel_xiaomi_sm6150" path="kernel/xiaomi/sm6150" revision="sixteen" />
 
 	<!-- MIUI Camera Sources -->
-	<project remote="gh" name="Bloody-Sweet-95/vendor_xiaomi_miuicamera-sweet" path="vendor/xiaomi/miuicamera-sweet" revision="miuicamera" />
+	<project remote="gh" name="Bloody-Sweet-95/vendor_xiaomi_miuicamera-sweet" path="vendor/xiaomi/miuicamera-sweet" revision="leica_holybear" />
 	<project remote="gh" name="Bloody-Sweet-95/device_xiaomi_miuicamera-sweet" path="device/xiaomi/miuicamera-sweet" revision="bka" />
 
 	<!-- Hardware and Audio Mods -->
