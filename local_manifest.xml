@@ -24,12 +24,12 @@
 	<project remote="gh" name="Bloody-Sweet-95/device_xiaomi_miuicamera-sweet" path="device/xiaomi/miuicamera-sweet" revision="bka" />
 
 	<!-- Hardware and Audio Mods -->
-	<project remote="gh" name="Evolution-X-Devices/hardware_xiaomi" path="hardware/xiaomi" revision="bka" />
+	<project remote="gh" name="Bloody-Sweet-95/xiaomi_hardware_dolby" path="hardware/xiaomi" revision="sony-1.0" />
 	<project remote="gh" name="TogoFire/packages_apps_ViPER4AndroidFX" path="packages/apps/ViPER4AndroidFX" revision="v4a" />
 
 	<!-- WFD -->
-	<project remote="gh" name="Bloody-sweet-95/android_device_qcom_wfd" path="device/qcom/wfd" revision="bka" />
-	<project remote="gh" name="Bloody-sweet-95/proprietary_vendor_qcom_wfd" path="vendor/qcom/wfd" revision="bka" />
+	<project remote="gh" name="Bloody-Sweet-95/android_device_qcom_wfd" path="device/qcom/wfd" revision="bka" />
+	<project remote="gh" name="Bloody-Sweet-95/proprietary_vendor_qcom_wfd" path="vendor/qcom/wfd" revision="bka" />
 
 	<!-- Signing-keys -->
 	<project remote="gh" name="Lunaris-AOSP/vendor_lunaris-priv_keys" path="vendor/lunaris-priv/keys" revision="16" />
