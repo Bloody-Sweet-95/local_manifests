@@ -24,7 +24,7 @@
 	<project remote="gh" name="Bloody-Sweet-95/device_xiaomi_miuicamera-sweet" path="device/xiaomi/miuicamera-sweet" revision="bka" />
 
 	<!-- Hardware and Audio Mods -->
-	<project remote="gh" name="Bloody-Sweet-95/android_xiaomi_hardware" path="hardware/xiaomi" revision="bka" />
+	<project remote="gh" name="Bloody-Sweet-95/android_hardware_xiaomi" path="hardware/xiaomi" revision="bka" />
 	<project remote="gh" name="Bloody-Sweet-95/android_hardware_dolby" path="hardware/dolby" revision="bka" />
 	<project remote="gh" name="TogoFire/packages_apps_ViPER4AndroidFX" path="packages/apps/ViPER4AndroidFX" revision="v4a" />
 
