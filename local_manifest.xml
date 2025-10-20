@@ -7,6 +7,7 @@
 	<remote name="cb" fetch="https://codeberg.org" />
 	<remote name="gm" fetch="https://git.mainlining.org" />
 	<remote name="lc" fetch="https://git.pontusmail.org" />
+	<remote name="github-http" fetch="https://github.com/" />
 
 	<!-- Device Specific Sources -->
 	<project remote="gh" name="Bloody-Sweet-95/android_device_xiaomi_sweet" path="device/xiaomi/sweet" revision="lunaris" />
