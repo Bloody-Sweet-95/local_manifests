@@ -15,7 +15,7 @@
 
 	<!-- Device Common Sources -->
 	<project remote="gh" name="Bloody-Sweet-95/android_device_xiaomi_sm6150-common" path="device/xiaomi/sm6150-common" revision="clover" />
-	<project remote="gh" name="Bloody-Sweet-95/vendor_xiaomi_sm6150-common" path="vendor/xiaomi/sm6150-common" revision="bka" />
+	<project remote="gh" name="xiaomi-sm6150/proprietary_vendor_xiaomi_sm6150-common" path="vendor/xiaomi/sm6150-common" revision="bka" />
 
 	<!-- Kernel Source  -->
 	<project remote="gh" name="tbyool/android_kernel_xiaomi_sm6150" path="kernel/xiaomi/sm6150" revision="16.0" />
