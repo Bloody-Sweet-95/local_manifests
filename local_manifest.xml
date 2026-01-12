@@ -26,7 +26,7 @@
 
 	<!-- Hardware and Audio Mods -->
 	<project remote="gh" name="Evolution-X-Devices/hardware_xiaomi" path="hardware/xiaomi" revision="bka-no-dolby" />
- 	<project remote="github-http" name="Bloody-Sweet-95/android_hardware_dolby" path="hardware/dolby" revision="sony" />
+ 	<project remote="github-http" name="Bloody-Sweet-95/android_hardware_dolby" path="hardware/dolby" revision="sony-1.2" />
 	<project remote="gh" name="TogoFire/packages_apps_ViPER4AndroidFX" path="packages/apps/ViPER4AndroidFX" revision="v4a" />
 
 	<!-- Signing-keys -->
