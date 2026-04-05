@@ -18,7 +18,7 @@
 	<project remote="gh" name="Bloody-Sweet-95/vendor_xiaomi_sm6150-common" path="vendor/xiaomi/sm6150-common" revision="Qpr2" />
 
 	<!-- Kernel Source  -->
-	<project remote="gh" name="tbyool/android_kernel_xiaomi_sm6150" path="kernel/xiaomi/sm6150" revision="16.0" />
+	<project remote="gh" name="tbyool/android_kernel_xiaomi_sm6150" path="kernel/xiaomi/sm6150" revision="16.2" />
 
 	<!-- MIUI Camera Sources -->
 	<project remote="gh" name="Bloody-Sweet-95/vendor_xiaomi_miuicamera-sweet" path="vendor/xiaomi/miuicamera-sweet" revision="miuicamera" />
