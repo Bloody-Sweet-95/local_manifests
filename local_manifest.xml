@@ -1,37 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<!-- Remotes -->
-	<remote name="gh" fetch="https://github.com" />
-	<remote name="gl" fetch="https://gitlab.com" />
-	<remote name="gt" fetch="https://gitea.com" />
-	<remote name="cb" fetch="https://codeberg.org" />
-	<remote name="gm" fetch="https://git.mainlining.org" />
-	<remote name="lc" fetch="https://git.pontusmail.org" />
+  <!-- Remotes -->
+  <remote name="gh" fetch="https://github.com/" />
 
-	<!-- Device Specific Sources -->
-	<project remote="gh" name="Bloody-Sweet-95/android_device_xiaomi_sweet" path="device/xiaomi/sweet" revision="bka" />
-	<project remote="gh" name="Bloody-Sweet-95/vendor_xiaomi_sweet" path="vendor/xiaomi/sweet" revision="bka" />
+  <!-- Device trees -->
+  <project path="device/xiaomi/sweet" name="Bloody-Sweet-95/device_xiaomi_sweet" remote="gh" revision="lineage-23.2" />
+  <project path="device/xiaomi/sm6150-common" name="Bloody-Sweet-95/device_xiaomi_sm6150-common" remote="gh" revision="lineage-23.2" />
+  <project path="device/xiaomi/miuicamera-sweet" name="Bloody-Sweet-95/device_xiaomi_miuicamera-sweet" remote="gh" revision="lineage-23.2" />
 
-	<!-- Device Common Sources -->
-	<project remote="gh" name="Bloody-Sweet-95/android_device_xiaomi_sm6150-common" path="device/xiaomi/sm6150-common" revision="bka" />
-	<project remote="gh" name="Bloody-Sweet-95/vendor_xiaomi_sm6150-common" path="vendor/xiaomi/sm6150-common" revision="bka" />
+  <!-- Vendor blobs -->
+  <project path="vendor/xiaomi/sweet" name="Bloody-Sweet-95/vendor_xiaomi_sweet" remote="gh" revision="lineage-23.2" />
+  <project path="vendor/xiaomi/sm6150-common" name="Bloody-Sweet-95/vendor_xiaomi_sm6150-common" remote="gh" revision="lineage-23.2" />
+  <project path="vendor/xiaomi/miuicamera-sweet" name="Bloody-Sweet-95/vendor_xiaomi_miuicamera-sweet" remote="gh" revision="lineage-23.2" />
 
-	<!-- Kernel Source  -->
-	<project remote="gh" name="Mr-Morat/Black-Peler" path="kernel/xiaomi/sm6150" revision="dev" />
+  <!-- Kernel -->
+  <project path="kernel/xiaomi/sm6150" name="tbyool/android_kernel_xiaomi_sm6150" remote="gh" revision="16.2" />
 
-	<!-- MIUI Camera Sources -->
-	<project remote="gh" name="Bloody-Sweet-95/vendor_xiaomi_miuicamera-sweet" path="vendor/xiaomi/miuicamera-sweet" revision="leica_holybear" />
-	<project remote="gh" name="Bloody-Sweet-95/device_xiaomi_miuicamera-sweet" path="device/xiaomi/miuicamera-sweet" revision="bka" />
+  <!-- Hardware -->
+  <project path="hardware/xiaomi" name="Bloody-Sweet-95/hardware_xiaomi" remote="gh" revision="lineage-23.2" />
 
-	<!-- Hardware and Audio Mods -->
-	<project remote="gh" name="Evolution-X-Devices/hardware_xiaomi" path="hardware/xiaomi" revision="bka" />
-	<project remote="gh" name="TogoFire/packages_apps_ViPER4AndroidFX" path="packages/apps/ViPER4AndroidFX" revision="v4a" />
+  <!-- Packages apps -->
+  <project path="packages/apps/KProfiles" name="Bloody-Sweet-95/packages_apps_KProfiles" remote="gh" revision="lineage-23.2" />
+  <project path="packages/apps/ViPER4AndroidFX" name="Bloody-Sweet-95/packages_apps_ViPER4AndroidFX" remote="gh" revision="lineage-23.2" />
 
-	<!-- WFD -->
-	<project remote="gh" name="Bloody-Sweet-95/android_device_qcom_wfd" path="device/qcom/wfd" revision="bka" />
-	<project remote="gh" name="Bloody-Sweet-95/proprietary_vendor_qcom_wfd" path="vendor/qcom/wfd" revision="bka" />
+  <!-- Dolby -->
+  <project path="packages/apps/LunarisDolby" name="Bloody-Sweet-95/packages_apps_LunarisDolby" remote="gh" revision="lineage-23.2" />
+  <project path="vendor/sony/dolby" name="Bloody-Sweet-95/vendor_sony_dolby" remote="gh" revision="lineage-23.2" />
 
-	<!-- Signing-keys -->
-	<project remote="gh" name="Bloody-Sweet-95/vendor_evolution-priv_keys" path="vendor/evolution-priv/keys" revision="main" />
-
-</manifest>
+  <!-- Signing keys -->
+  	<project remote="gh" name="Lunaris-AOSP/vendor_lunaris-priv_keys" path="vendor/lunaris-priv/keys" revision="16" />
+<manifest>
